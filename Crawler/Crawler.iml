@@ -11,112 +11,113 @@
     <orderEntry type="library" name="amqp-client-4.1.1" level="project" />
     <orderEntry type="library" name="jsoup-1.10.3-javadoc" level="project" />
     <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/servlet-api-3.1.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/lucene-queryparser-4.0.0.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/lucene-core-4.0.0.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/lucene-analyzers-common-4.0.0.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/spymemcached-2.12.1.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/junit-4.12.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/json-20160807.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/mysql-connector-java-5.1.40-bin.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/lucene-suggest-4.0.0.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/jackson-databind-2.8.3.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/jackson-core-2.8.3.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
-        <orderEntry type="module-library" exported="">
-          <library>
-            <CLASSES>
-              <root url="jar://$MODULE_DIR$/../javalib/jackson-annotations-2.8.3.jar!/" />
-            </CLASSES>
-            <JAVADOC />
-            <SOURCES />
-          </library>
-        </orderEntry>
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/servlet-api-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/lucene-queryparser-4.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/lucene-core-4.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/lucene-analyzers-common-4.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/spymemcached-2.12.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/json-20160807.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/mysql-connector-java-5.1.40-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/lucene-suggest-4.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/jackson-databind-2.8.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/jackson-core-2.8.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javalib/jackson-annotations-2.8.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="json-20160807" level="project" />
   </component>
 </module>
