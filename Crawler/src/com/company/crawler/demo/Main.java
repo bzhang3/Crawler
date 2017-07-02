@@ -1,8 +1,27 @@
-package com.company;
+package com.company.crawler.demo;
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.qingxuan.ad.Ad;
+
 
 public class Main {
 
     public static void main(String[] args) {
+
+        // input: rawQuery3.txt, prixylist_bittiger.csv outputAdsDataFilePath
+        if(args.length < 3){
+            System.out.println("Please input: rawQueryDataFilePath, proxyFilePath and outputAdsDataFilePath.");
+            System.exit(0);
+        }
+
+        ObjectMapper mapper = new ObjectMapper();
+
+        String rawQueryDataFilePath = args[0];
+        String proxyFilePath = args[1];
+        String adsDataFilePath = args[2];
+
         Crawler crawler = new Crawler();
         /*
             for(int i = 0 ;i < 1000 ;i++) {
